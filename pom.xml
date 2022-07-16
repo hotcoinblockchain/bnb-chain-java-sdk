@@ -42,7 +42,7 @@
         </repository>
     </distributionManagement>
 
-<!--    <groupId>com.binance.dex.api</groupId>-->
+    <!--    <groupId>com.binance.dex.api</groupId>-->
     <groupId>io.github.hotcoinblockchain</groupId>
     <artifactId>binance-dex-api-client</artifactId>
     <version>1.1.2</version>
@@ -55,13 +55,17 @@
             <id>jfrog-snapshots</id>
             <name>oss.jfrog.org</name>
             <url>https://oss.jfrog.org/libs-snapshot/</url>
-            <snapshots><enabled>true</enabled></snapshots>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
         </repository>
         <repository>
             <id>jfrog-cronapp</id>
             <name>artifactory.cronapp.io</name>
             <url>https://artifactory.cronapp.io/libs-release/</url>
-            <snapshots><enabled>true</enabled></snapshots>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
         </repository>
     </repositories>
     <dependencies>
