@@ -22,9 +22,9 @@
 
     <developers>
         <developer>
-            <name>anysoft</name>
-            <id>anysoft</id>
-            <email>anysoft@yeah.net</email>
+            <name>devops</name>
+            <id>devops</id>
+            <email>devops@hotcoin.biz</email>
             <roles>
                 <role>Developer</role>
             </roles>
@@ -45,7 +45,7 @@
     <!--    <groupId>com.binance.dex.api</groupId>-->
     <groupId>io.github.hotcoinblockchain</groupId>
     <artifactId>binance-dex-api-client</artifactId>
-    <version>1.1.2</version>
+    <version>1.1.2.1</version>
 
     <properties>
         <com.squareup.retrofit2.version>2.6.0</com.squareup.retrofit2.version>
@@ -177,6 +177,10 @@
                 <exclusion>
                     <groupId>org.iq80.leveldb</groupId>
                     <artifactId>leveldb</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>ch.qos.logback</groupId>
+                    <artifactId>logback-classic</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
